@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>JG Bank</title>
+      <link rel="stylesheet" href="JG-Bank.css" />
+      <link rel="stylesheet" href="JG-Bank-Queries.css" />
+      <script src="JG-Bank.js" defer></script>
+    </head>
+    <body>
+      <nav id="desktop-nav">
+        <div class="logo">J.G Bank</div>
+        <ul class="nav-links">
+          <li><a href="#">Checking</a></li>
+          <li><a href="#">Credit Cards</a></li>
+          <li><a href="#">Home Loans</a></li>
+          <li><a href="#">Auto Loans</a></li>
+          <li><a href="#">Investing</a></li>
+        </ul>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">J.G Bank</div>
+        <div class="hamburger-menu">
+          <div class="nav-sign-burger">
+            <a href="JG-Sign-in.html" class="sign-in"
+              ><img src="account-icon.png" class="sign-in-icon" />Sign In</a
+            >
+            <div class="hamburger-icon" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="menu-links">
+              <li><a href="#" onclick="toggleMenu()">Checking</a></li>
+              <li><a href="#" onclick="toggleMenu()">Credit Cards</a></li>
+              <li><a href="#" onclick="toggleMenu()">Home Loans</a></li>
+              <li><a href="#" onclick="toggleMenu()">Auto Loans</a></li>
+              <li><a href="#" onclick="toggleMenu()">Investing</a></li>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section>
+          <div class="sign-in-container">
+            <div class="sign-in-box">
+              <form>
+                <div class="sign-in-text"> SIGN IN </div>
+                <div class="input-username">Username</div>
+                <input type="text" required />
+                <div class="input-password">Password</div>
+                <input type="password" required />
+                <button type="submit">Sign In</button>
+                <a href="#">Forgot Username/Password</a>
+                <a href="JG-Sign-up.html">Not Enrolled? Sign Up Now</a>
+              </form>
+            </div>
+            <div class="location-container">
+              <div class="location-content">
+              <img src="Bank-image.png">
+              <div class="location-text">
+                We Have Several Branches All Over The World
+                <button> FIND A BRANCH NEAR YOU</button>
+                </div>
+                </div>
+              </div>
+         </div>
+        </section>
+      <section>
+        <div class="promotions">
+          <div class="money-back-card">
+            <img src="shopping.webp">
+            <div class="info-box">
+              <h3>LOVE SHOPPING</h3>
+              <p class="description">Earn 5% Cash Back on everyday purchases.
+                Including different places you love shopping like grocery stores,
+                restuarants, gas stations, and many online stores.
+              </p>
+              <a href="#" class="link">Learn More</a>
+            </div>
+          </div>
+          <div class="travel-points-card">
+            <img src="airplane.webp">
+            <div class="info-box">
+              <h3>LOVE TRAVELING</h3>
+              <p class="description">Earn unlimited 1.25 miles per dollar on every
+                purchase. Earn Unlimited 5 miles per dollar on hotels and rental Cards
+                booked using this card.
+              </p>
+              <a href="#" class="link">Learn More</a>
+            </div>
+          </div>
+      </section>
+      <section>
+        <div class="promotions-2">
+          <div class="savings-card">
+            <img src="savings.png">
+            <h3>SAVE FOR THE FUTURE</h3>
+            <p class="description-2">Keep your money growing with a great savings rates and dont worry about tomorrow</p>
+            <a href="#" class="link">Learn More</a>
+          </div>
+          <div class="house-card">
+            <img src="house.png">
+            <h3>GET YOUR DREAM HOUSE</h3>
+            <p class="description-2">Find your dream home and see how you are able to make it a reality and yours</p>
+            <a href="#" class="link">Learn More</a>
+          </div>
+          <div class="car-card">
+            <img src="car.png">
+            <h3>GET YOUR DREAM CAR</h3>
+            <p class="description-2">Search different cars of different dealers and making it yours</p>
+            <a href="#" class="link">Learn More</a>
+          </div>
+        </div>
+      </section>
+    </body>
+  </html>
+</html>

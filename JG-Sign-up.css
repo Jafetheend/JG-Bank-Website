@@ -1,0 +1,73 @@
+body {
+  font-family: Arial;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.sign-up-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  padding: 80px;
+  text-align: center;
+  height: 550px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  margin-top: 10px;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 60%;
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: rgb(4, 206, 4);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  opacity: .7;
+}
+
+.sign-up-text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.question {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+
+
