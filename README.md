@@ -7,4 +7,4 @@ Main page, Sign In, Log In
 ##Working On
 - User account display page
 - learning JavaScript
-- learning nect node js
+- learning next node js
